@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700|Montserrat:wght@842&display=swap');
+
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 3.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto Condensed;
+}
+
+h1 {
+    font-size: 9em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 4.2em;
+    text-align: center;
+    line-height: 1em;
+}
+
+h4 {
+    font-size: 1.5em;
+    letter-spacing: 0.4px;
+    line-height: 1em;
+}
+
+h5 {
+    font-size: 1.2em;
+    line-height: 1em;
+
+}
+
+.nav-bar {
+    background-color: rgb(25, 33, 41);    
+}
+
+.nav-bar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 2em;       
+}
+
+.nav-bar li {
+    list-style-type: none;
+}
+
+.header {
+    background-image: url("https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg");
+    position: 0 0;
+    background-repeat: no-repeat;
+    size: cover;
+    height: 650px;
+}
+
+.header h2 {
+    color: rgb(255, 255, 255);
+    text-shadow: #020819 8px -20px 9px;
+}
+
+.quote {
+    font-size: 2.5em;
+}
+
+.dark-background {
+    background-color: rgb(25, 33, 41);
+    color: rgb(255, 255, 255);
+}
+
+.text {
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.link-btn {
+    background-color: rgb(67, 163, 230);
+    color: rgb(255, 255, 255);
+    font-family: Roboto Condensed;
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.service-box {
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.service-box img {
+    width: 125px;
+}
+
+#team .section-text {
+    font-size: 1.9em;
+    text-align: center;
+}
+
+#team .member-name {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#team img {
+    width: 250px;
+    height: 180px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 1.9em;
+}
+
+.address {
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+.footer a {
+    color:  rgb(67, 163, 230);
+    text-decoration: none;    
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+
+
+/*! ADDING SOME PERSONAL STYLES */
+
+/*? NAVBAR  */
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+    min-height: 10em;
+    margin: 0px;
+    font-family: Montserrat;
+    font-weight: 842;
+}
+
+.nav-bar li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-bar a:hover {
+    background-color: rgb(255, 228, 73);
+    border-radius: 5%;    
+    color: rgb(25, 33, 41);
+    
+}
+/*TODO Adding this style to the hover makes all the nav moves, guess is because de extra padding. Should rest it? */
+
+/*? HEADER  */
+.header {
+    display: flex;
+    flex-direction: column;    
+}
+
+.header .quote {
+    margin-left: 10%;
+}
+
+
+/*? SECTION 1 general info  */
+#general-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+#general-information article {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 1em;
+    margin: 1em;
+}
+
+/*? SECTION 2 Structure  */
+#structure article {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: left;
+    border: 3px double rgb(25, 33, 41);
+    border-radius: 5px;
+    padding: 1em;
+    margin: 2em;
+
+}
+
+#structure article p {
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    margin-left: 5em;
+    text-align: justify;
+    justify-content:space-around;
+    font-size: 100%;
+}
+
+#structure article h4 {
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    margin-left: 5em;
+    text-align: left;
+    justify-content: center;
+}
+
+#structure h3 {
+    align-items: center;    
+}
+
+/*? SECTION 3 TEAM  */
+
+#team h3 {
+    padding-top: 1.5em;
+}
+
+#team hr {
+    width: 50%;
+}
+
+.team-teachers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+
+.member-name {
+    text-align: center;
+}
+
+.teacher-card img {
+    /*todo I cannot do target inside the teacher-card's img. Dont know why */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
